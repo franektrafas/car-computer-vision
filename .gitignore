@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+venv/
+*.egg-info/
+
+# Model weights are too large for this repo (300+ MB) and not redistributable.
+# See README for how to obtain/place them.
+models/
+
+# Sample car photos used for local testing are not cleared for redistribution.
+image/
