@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rozpoznawanie Samochodów</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <p class="eyebrow">Projekt zaliczeniowy z Uczenia Maszynowego</p>
+      <h1>Rozpoznawanie marki, modelu i wyceny samochodu</h1>
+      <p class="lead">
+        Wgraj zdjęcie auta - system przygotowany na podstawie modelu w Pythonie
+        wskaże rozpoznany pojazd a następnie go wyceni.
+      </p>
+    </section>
+
+    <section class="card">
+      <div class="card-copy">
+        <h2>Analiza zdjęcia</h2>
+        <p>
+          Zdjęcie trafia do klasyfikatora ViT (196 klas ze zbioru Stanford Cars),
+          a rozpoznana etykieta jest wyceniana na dwa sposoby: dokładnym odczytem
+          z tabeli referencyjnej oraz eksperymentalnym modelem regresji.
+        </p>
+      </div>
+
+      <form id="car-form" class="upload-form">
+        <label for="image-input" class="upload-box" id="upload-box">
+          <input id="image-input" name="image" type="file" accept="image/*" required>
+          <span class="upload-title">Kliknij lub przeciągnij zdjęcie samochodu</span>
+          <span class="upload-subtitle">Obsługiwane formaty: JPG</span>
+        </label>
+
+        <div class="preview-wrap" id="preview-wrap" hidden>
+          <img id="preview-image" alt="Podgląd przesłanego zdjęcia">
+        </div>
+
+        <button type="submit" class="primary-button">Rozpoznaj samochód</button>
+      </form>
+    </section>
+
+    <section class="result-card" id="result-card">
+      <div class="result-header">
+        <h2>Wynik rozpoznania</h2>
+        <span id="status-badge" class="status-badge neutral">Oczekiwanie</span>
+      </div>
+
+      <p id="message" class="message"> 
+        Po przesłaniu zdjęcia tutaj pojawi się rozpoznana marka, model, rok i cena.
+      </p>
+
+      <div class="result-grid">
+        <article class="result-item">
+          <span class="label">Marka</span>
+          <strong id="brand-value">-</strong>
+        </article>
+        <article class="result-item">
+          <span class="label">Model</span>
+          <strong id="model-value">-</strong>
+        </article>
+        <article class="result-item">
+          <span class="label">Rok</span>
+          <strong id="year-value">-</strong>
+        </article>
+        <article class="result-item accent">
+          <span class="label">Cena z tabeli referencyjnej</span>
+          <strong id="price-value">-</strong>
+        </article>
+      </div>
+
+      <div class="label-box">
+        <span class="label">Pełna etykieta modelu</span>
+        <code id="full-label">-</code>
+      </div>
+
+      <div class="confidence-box">
+        <span class="label">Pewność rozpoznania modelu</span>
+        <strong id="confidence-value">-</strong>
+      </div>
+
+      <div class="confidence-box">
+        <span class="label">Szacowanie modelu regresji (eksperymentalne, MAPE ok. 90% na zbiorze testowym)</span>
+        <strong id="model-estimate-value">-</strong>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
