@@ -1,0 +1,6 @@
+{
+  "train_size": 156,
+  "test_size": 40,
+  "mae": 51731.65,
+  "mape_percent": 90.34
+}

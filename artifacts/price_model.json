@@ -1,0 +1,2523 @@
+{
+  "neighbors": 5,
+  "global_average": 225977.79081632654,
+  "brand_average": {
+    "Dodge": 34853.26666666667,
+    "Cadillac": 42400.0,
+    "Audi": 65428.5,
+    "Ram": 46400.0,
+    "smart": 14500.0,
+    "Suzuki": 16275.0,
+    "Chevrolet": 51454.545454545456,
+    "Chrysler": 29391.666666666668,
+    "Rolls-Royce": 1229333.3333333333,
+    "Buick": 27125.0,
+    "Aston": 377000.0,
+    "Honda": 24412.5,
+    "BMW": 68092.30769230769,
+    "Volvo": 25200.0,
+    "Plymouth": 10000.0,
+    "Ford": 31941.666666666668,
+    "McLaren": 522000.0,
+    "Acura": 32824.833333333336,
+    "Jeep": 40600.0,
+    "Hyundai": 25486.363636363636,
+    "Isuzu": 11500.0,
+    "Geo": 10000.0,
+    "Mercedes-Benz": 48450.0,
+    "Bentley": 540333.3333333334,
+    "Jaguar": 29000.0,
+    "Land": 81200.0,
+    "Infiniti": 39550.0,
+    "Bugatti": 8430000.0,
+    "Ferrari": 772000.0,
+    "Lamborghini": 1611000.0,
+    "Lincoln": 27500.0,
+    "GMC": 40600.0,
+    "Toyota": 29000.0,
+    "Mitsubishi": 29000.0,
+    "Mazda": 24750.0,
+    "FIAT": 20300.0,
+    "Fisker": 69600.0,
+    "Tesla": 104400.0,
+    "Daewoo": 10000.0,
+    "Maybach": 870000.0,
+    "HUMMER": 65650.0,
+    "Scion": 17400.0,
+    "Spyker": 490000.0,
+    "Porsche": 261000.0,
+    "Nissan": 24875.0,
+    "AM": 25000.0,
+    "Volkswagen": 18800.0,
+    "Eagle": 10000.0,
+    "MINI": 40600.0
+  },
+  "body_average": {
+    "Cab": 33991.17647058824,
+    "Sedan": 112789.13043478261,
+    "Convertible": 579144.1923076923,
+    "Minivan": 26100.0,
+    "Van": 32714.285714285714,
+    "GS": 29000.0,
+    "Hatchback": 24800.0,
+    "SUV": 35747.05882352941,
+    "Wagon": 27499.833333333332,
+    "Coupe": 772610.0,
+    "SRT-8": 66400.0,
+    "SS": 25500.0,
+    "XKR": 29000.0,
+    "SRT8": 73000.0,
+    "IPL": 40600.0,
+    "ZR1": 349000.0,
+    "Type-S": 29899.0,
+    "Abarth": 20300.0,
+    "Superleggera": 1096000.0,
+    "SuperCab": 30250.0,
+    "R": 16250.0,
+    "Z06": 141500.0
+  },
+  "rows": [
+    {
+      "label": "Dodge Ram Pickup 3500 Crew Cab 2010",
+      "brand": "Dodge",
+      "model": "Ram Pickup 3500 Crew Cab",
+      "body_type": "Cab",
+      "year": 2010,
+      "price": 31200,
+      "model_tokens": [
+        "ram",
+        "pickup",
+        "3500",
+        "crew",
+        "cab"
+      ]
+    },
+    {
+      "label": "Cadillac CTS-V Sedan 2012",
+      "brand": "Cadillac",
+      "model": "CTS-V Sedan",
+      "body_type": "Sedan",
+      "year": 2012,
+      "price": 46400,
+      "model_tokens": [
+        "cts-v",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Audi S5 Convertible 2012",
+      "brand": "Audi",
+      "model": "S5 Convertible",
+      "body_type": "Convertible",
+      "year": 2012,
+      "price": 40600,
+      "model_tokens": [
+        "s5",
+        "convertible"
+      ]
+    },
+    {
+      "label": "Ram C-V Cargo Van Minivan 2012",
+      "brand": "Ram",
+      "model": "C-V Cargo Van Minivan",
+      "body_type": "Minivan",
+      "year": 2012,
+      "price": 46400,
+      "model_tokens": [
+        "c-v",
+        "cargo",
+        "van",
+        "minivan"
+      ]
+    },
+    {
+      "label": "smart fortwo Convertible 2012",
+      "brand": "smart",
+      "model": "fortwo Convertible",
+      "body_type": "Convertible",
+      "year": 2012,
+      "price": 14500,
+      "model_tokens": [
+        "fortwo",
+        "convertible"
+      ]
+    },
+    {
+      "label": "Audi V8 Sedan 1994",
+      "brand": "Audi",
+      "model": "V8 Sedan",
+      "body_type": "Sedan",
+      "year": 1994,
+      "price": 17500,
+      "model_tokens": [
+        "v8",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Suzuki Kizashi Sedan 2012",
+      "brand": "Suzuki",
+      "model": "Kizashi Sedan",
+      "body_type": "Sedan",
+      "year": 2012,
+      "price": 17400,
+      "model_tokens": [
+        "kizashi",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Chevrolet Express Van 2007",
+      "brand": "Chevrolet",
+      "model": "Express Van",
+      "body_type": "Van",
+      "year": 2007,
+      "price": 21500,
+      "model_tokens": [
+        "express",
+        "van"
+      ]
+    },
+    {
+      "label": "Chrysler Town and Country Minivan 2012",
+      "brand": "Chrysler",
+      "model": "Town and Country Minivan",
+      "body_type": "Minivan",
+      "year": 2012,
+      "price": 26100,
+      "model_tokens": [
+        "town",
+        "and",
+        "country",
+        "minivan"
+      ]
+    },
+    {
+      "label": "Rolls-Royce Phantom Sedan 2012",
+      "brand": "Rolls-Royce",
+      "model": "Phantom Sedan",
+      "body_type": "Sedan",
+      "year": 2012,
+      "price": 1496000,
+      "model_tokens": [
+        "phantom",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Buick Regal GS 2012",
+      "brand": "Buick",
+      "model": "Regal GS",
+      "body_type": "GS",
+      "year": 2012,
+      "price": 29000,
+      "model_tokens": [
+        "regal",
+        "gs"
+      ]
+    },
+    {
+      "label": "Aston Martin V8 Vantage Convertible 2012",
+      "brand": "Aston",
+      "model": "Martin V8 Vantage Convertible",
+      "body_type": "Convertible",
+      "year": 2012,
+      "price": 377000,
+      "model_tokens": [
+        "martin",
+        "v8",
+        "vantage",
+        "convertible"
+      ]
+    },
+    {
+      "label": "Rolls-Royce Phantom Drophead Coupe Convertible 2012",
+      "brand": "Rolls-Royce",
+      "model": "Phantom Drophead Coupe Convertible",
+      "body_type": "Convertible",
+      "year": 2012,
+      "price": 1496000,
+      "model_tokens": [
+        "phantom",
+        "drophead",
+        "coupe",
+        "convertible"
+      ]
+    },
+    {
+      "label": "Audi TT Hatchback 2011",
+      "brand": "Audi",
+      "model": "TT Hatchback",
+      "body_type": "Hatchback",
+      "year": 2011,
+      "price": 38500,
+      "model_tokens": [
+        "tt",
+        "hatchback"
+      ]
+    },
+    {
+      "label": "Chevrolet Malibu Hybrid Sedan 2010",
+      "brand": "Chevrolet",
+      "model": "Malibu Hybrid Sedan",
+      "body_type": "Sedan",
+      "year": 2010,
+      "price": 26000,
+      "model_tokens": [
+        "malibu",
+        "hybrid",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Honda Odyssey Minivan 2012",
+      "brand": "Honda",
+      "model": "Odyssey Minivan",
+      "body_type": "Minivan",
+      "year": 2012,
+      "price": 26100,
+      "model_tokens": [
+        "odyssey",
+        "minivan"
+      ]
+    },
+    {
+      "label": "BMW X6 SUV 2012",
+      "brand": "BMW",
+      "model": "X6 SUV",
+      "body_type": "SUV",
+      "year": 2012,
+      "price": 49300,
+      "model_tokens": [
+        "x6",
+        "suv"
+      ]
+    },
+    {
+      "label": "Audi 100 Wagon 1994",
+      "brand": "Audi",
+      "model": "100 Wagon",
+      "body_type": "Wagon",
+      "year": 1994,
+      "price": 17500,
+      "model_tokens": [
+        "100",
+        "wagon"
+      ]
+    },
+    {
+      "label": "Volvo 240 Sedan 1993",
+      "brand": "Volvo",
+      "model": "240 Sedan",
+      "body_type": "Sedan",
+      "year": 1993,
+      "price": 15000,
+      "model_tokens": [
+        "240",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Plymouth Neon Coupe 1999",
+      "brand": "Plymouth",
+      "model": "Neon Coupe",
+      "body_type": "Coupe",
+      "year": 1999,
+      "price": 10000,
+      "model_tokens": [
+        "neon",
+        "coupe"
+      ]
+    },
+    {
+      "label": "Ford Focus Sedan 2007",
+      "brand": "Ford",
+      "model": "Focus Sedan",
+      "body_type": "Sedan",
+      "year": 2007,
+      "price": 23650,
+      "model_tokens": [
+        "focus",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Ford GT Coupe 2006",
+      "brand": "Ford",
+      "model": "GT Coupe",
+      "body_type": "Coupe",
+      "year": 2006,
+      "price": 72000,
+      "model_tokens": [
+        "gt",
+        "coupe"
+      ]
+    },
+    {
+      "label": "McLaren MP4-12C Coupe 2012",
+      "brand": "McLaren",
+      "model": "MP4-12C Coupe",
+      "body_type": "Coupe",
+      "year": 2012,
+      "price": 522000,
+      "model_tokens": [
+        "mp4-12c",
+        "coupe"
+      ]
+    },
+    {
+      "label": "Dodge Caliber Wagon 2012",
+      "brand": "Dodge",
+      "model": "Caliber Wagon",
+      "body_type": "Wagon",
+      "year": 2012,
+      "price": 34800,
+      "model_tokens": [
+        "caliber",
+        "wagon"
+      ]
+    },
+    {
+      "label": "Acura TSX Sedan 2012",
+      "brand": "Acura",
+      "model": "TSX Sedan",
+      "body_type": "Sedan",
+      "year": 2012,
+      "price": 37700,
+      "model_tokens": [
+        "tsx",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Chrysler 300 SRT-8 2010",
+      "brand": "Chrysler",
+      "model": "300 SRT-8",
+      "body_type": "SRT-8",
+      "year": 2010,
+      "price": 63400,
+      "model_tokens": [
+        "300",
+        "srt-8"
+      ]
+    },
+    {
+      "label": "Jeep Wrangler SUV 2012",
+      "brand": "Jeep",
+      "model": "Wrangler SUV",
+      "body_type": "SUV",
+      "year": 2012,
+      "price": 40600,
+      "model_tokens": [
+        "wrangler",
+        "suv"
+      ]
+    },
+    {
+      "label": "Chevrolet Monte Carlo Coupe 2007",
+      "brand": "Chevrolet",
+      "model": "Monte Carlo Coupe",
+      "body_type": "Coupe",
+      "year": 2007,
+      "price": 21500,
+      "model_tokens": [
+        "monte",
+        "carlo",
+        "coupe"
+      ]
+    },
+    {
+      "label": "Chevrolet HHR SS 2010",
+      "brand": "Chevrolet",
+      "model": "HHR SS",
+      "body_type": "SS",
+      "year": 2010,
+      "price": 26000,
+      "model_tokens": [
+        "hhr",
+        "ss"
+      ]
+    },
+    {
+      "label": "Dodge Dakota Crew Cab 2010",
+      "brand": "Dodge",
+      "model": "Dakota Crew Cab",
+      "body_type": "Cab",
+      "year": 2010,
+      "price": 31200,
+      "model_tokens": [
+        "dakota",
+        "crew",
+        "cab"
+      ]
+    },
+    {
+      "label": "Jeep Compass SUV 2012",
+      "brand": "Jeep",
+      "model": "Compass SUV",
+      "body_type": "SUV",
+      "year": 2012,
+      "price": 40600,
+      "model_tokens": [
+        "compass",
+        "suv"
+      ]
+    },
+    {
+      "label": "Hyundai Veracruz SUV 2012",
+      "brand": "Hyundai",
+      "model": "Veracruz SUV",
+      "body_type": "SUV",
+      "year": 2012,
+      "price": 26100,
+      "model_tokens": [
+        "veracruz",
+        "suv"
+      ]
+    },
+    {
+      "label": "Buick Verano Sedan 2012",
+      "brand": "Buick",
+      "model": "Verano Sedan",
+      "body_type": "Sedan",
+      "year": 2012,
+      "price": 29000,
+      "model_tokens": [
+        "verano",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Isuzu Ascender SUV 2008",
+      "brand": "Isuzu",
+      "model": "Ascender SUV",
+      "body_type": "SUV",
+      "year": 2008,
+      "price": 11500,
+      "model_tokens": [
+        "ascender",
+        "suv"
+      ]
+    },
+    {
+      "label": "Hyundai Accent Sedan 2012",
+      "brand": "Hyundai",
+      "model": "Accent Sedan",
+      "body_type": "Sedan",
+      "year": 2012,
+      "price": 26100,
+      "model_tokens": [
+        "accent",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Audi TT RS Coupe 2012",
+      "brand": "Audi",
+      "model": "TT RS Coupe",
+      "body_type": "Coupe",
+      "year": 2012,
+      "price": 110600,
+      "model_tokens": [
+        "tt",
+        "rs",
+        "coupe"
+      ]
+    },
+    {
+      "label": "Geo Metro Convertible 1993",
+      "brand": "Geo",
+      "model": "Metro Convertible",
+      "body_type": "Convertible",
+      "year": 1993,
+      "price": 10000,
+      "model_tokens": [
+        "metro",
+        "convertible"
+      ]
+    },
+    {
+      "label": "Buick Enclave SUV 2012",
+      "brand": "Buick",
+      "model": "Enclave SUV",
+      "body_type": "SUV",
+      "year": 2012,
+      "price": 29000,
+      "model_tokens": [
+        "enclave",
+        "suv"
+      ]
+    },
+    {
+      "label": "Mercedes-Benz 300-Class Convertible 1993",
+      "brand": "Mercedes-Benz",
+      "model": "300-Class Convertible",
+      "body_type": "Convertible",
+      "year": 1993,
+      "price": 23750,
+      "model_tokens": [
+        "300-class",
+        "convertible"
+      ]
+    },
+    {
+      "label": "Dodge Caliber Wagon 2007",
+      "brand": "Dodge",
+      "model": "Caliber Wagon",
+      "body_type": "Wagon",
+      "year": 2007,
+      "price": 25800,
+      "model_tokens": [
+        "caliber",
+        "wagon"
+      ]
+    },
+    {
+      "label": "Hyundai Genesis Sedan 2012",
+      "brand": "Hyundai",
+      "model": "Genesis Sedan",
+      "body_type": "Sedan",
+      "year": 2012,
+      "price": 26100,
+      "model_tokens": [
+        "genesis",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Jeep Liberty SUV 2012",
+      "brand": "Jeep",
+      "model": "Liberty SUV",
+      "body_type": "SUV",
+      "year": 2012,
+      "price": 40600,
+      "model_tokens": [
+        "liberty",
+        "suv"
+      ]
+    },
+    {
+      "label": "Chevrolet Traverse SUV 2012",
+      "brand": "Chevrolet",
+      "model": "Traverse SUV",
+      "body_type": "SUV",
+      "year": 2012,
+      "price": 29000,
+      "model_tokens": [
+        "traverse",
+        "suv"
+      ]
+    },
+    {
+      "label": "BMW M6 Convertible 2010",
+      "brand": "BMW",
+      "model": "M6 Convertible",
+      "body_type": "Convertible",
+      "year": 2010,
+      "price": 164200,
+      "model_tokens": [
+        "m6",
+        "convertible"
+      ]
+    },
+    {
+      "label": "Bentley Mulsanne Sedan 2011",
+      "brand": "Bentley",
+      "model": "Mulsanne Sedan",
+      "body_type": "Sedan",
+      "year": 2011,
+      "price": 385000,
+      "model_tokens": [
+        "mulsanne",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Jaguar XK XKR 2012",
+      "brand": "Jaguar",
+      "model": "XK XKR",
+      "body_type": "XKR",
+      "year": 2012,
+      "price": 29000,
+      "model_tokens": [
+        "xk",
+        "xkr"
+      ]
+    },
+    {
+      "label": "Dodge Challenger SRT8 2011",
+      "brand": "Dodge",
+      "model": "Challenger SRT8",
+      "body_type": "SRT8",
+      "year": 2011,
+      "price": 73000,
+      "model_tokens": [
+        "challenger",
+        "srt8"
+      ]
+    },
+    {
+      "label": "Chevrolet Malibu Sedan 2007",
+      "brand": "Chevrolet",
+      "model": "Malibu Sedan",
+      "body_type": "Sedan",
+      "year": 2007,
+      "price": 21500,
+      "model_tokens": [
+        "malibu",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Hyundai Sonata Sedan 2012",
+      "brand": "Hyundai",
+      "model": "Sonata Sedan",
+      "body_type": "Sedan",
+      "year": 2012,
+      "price": 26100,
+      "model_tokens": [
+        "sonata",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Land Rover LR2 SUV 2012",
+      "brand": "Land",
+      "model": "Rover LR2 SUV",
+      "body_type": "SUV",
+      "year": 2012,
+      "price": 81200,
+      "model_tokens": [
+        "rover",
+        "lr2",
+        "suv"
+      ]
+    },
+    {
+      "label": "Infiniti G Coupe IPL 2012",
+      "brand": "Infiniti",
+      "model": "G Coupe IPL",
+      "body_type": "IPL",
+      "year": 2012,
+      "price": 40600,
+      "model_tokens": [
+        "g",
+        "coupe",
+        "ipl"
+      ]
+    },
+    {
+      "label": "Bugatti Veyron 16.4 Coupe 2009",
+      "brand": "Bugatti",
+      "model": "Veyron 16.4 Coupe",
+      "body_type": "Coupe",
+      "year": 2009,
+      "price": 8430000,
+      "model_tokens": [
+        "veyron",
+        "16.4",
+        "coupe"
+      ]
+    },
+    {
+      "label": "Acura ZDX Hatchback 2012",
+      "brand": "Acura",
+      "model": "ZDX Hatchback",
+      "body_type": "Hatchback",
+      "year": 2012,
+      "price": 37700,
+      "model_tokens": [
+        "zdx",
+        "hatchback"
+      ]
+    },
+    {
+      "label": "Hyundai Elantra Touring Hatchback 2012",
+      "brand": "Hyundai",
+      "model": "Elantra Touring Hatchback",
+      "body_type": "Hatchback",
+      "year": 2012,
+      "price": 26100,
+      "model_tokens": [
+        "elantra",
+        "touring",
+        "hatchback"
+      ]
+    },
+    {
+      "label": "Suzuki Aerio Sedan 2007",
+      "brand": "Suzuki",
+      "model": "Aerio Sedan",
+      "body_type": "Sedan",
+      "year": 2007,
+      "price": 12900,
+      "model_tokens": [
+        "aerio",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Ferrari 458 Italia Coupe 2012",
+      "brand": "Ferrari",
+      "model": "458 Italia Coupe",
+      "body_type": "Coupe",
+      "year": 2012,
+      "price": 1022000,
+      "model_tokens": [
+        "458",
+        "italia",
+        "coupe"
+      ]
+    },
+    {
+      "label": "BMW Z4 Convertible 2012",
+      "brand": "BMW",
+      "model": "Z4 Convertible",
+      "body_type": "Convertible",
+      "year": 2012,
+      "price": 49300,
+      "model_tokens": [
+        "z4",
+        "convertible"
+      ]
+    },
+    {
+      "label": "Chevrolet Corvette ZR1 2012",
+      "brand": "Chevrolet",
+      "model": "Corvette ZR1",
+      "body_type": "ZR1",
+      "year": 2012,
+      "price": 349000,
+      "model_tokens": [
+        "corvette",
+        "zr1"
+      ]
+    },
+    {
+      "label": "Honda Accord Sedan 2012",
+      "brand": "Honda",
+      "model": "Accord Sedan",
+      "body_type": "Sedan",
+      "year": 2012,
+      "price": 26100,
+      "model_tokens": [
+        "accord",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Rolls-Royce Ghost Sedan 2012",
+      "brand": "Rolls-Royce",
+      "model": "Ghost Sedan",
+      "body_type": "Sedan",
+      "year": 2012,
+      "price": 696000,
+      "model_tokens": [
+        "ghost",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Audi S5 Coupe 2012",
+      "brand": "Audi",
+      "model": "S5 Coupe",
+      "body_type": "Coupe",
+      "year": 2012,
+      "price": 40600,
+      "model_tokens": [
+        "s5",
+        "coupe"
+      ]
+    },
+    {
+      "label": "Audi S4 Sedan 2012",
+      "brand": "Audi",
+      "model": "S4 Sedan",
+      "body_type": "Sedan",
+      "year": 2012,
+      "price": 40600,
+      "model_tokens": [
+        "s4",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Lamborghini Reventon Coupe 2008",
+      "brand": "Lamborghini",
+      "model": "Reventon Coupe",
+      "body_type": "Coupe",
+      "year": 2008,
+      "price": 3552000,
+      "model_tokens": [
+        "reventon",
+        "coupe"
+      ]
+    },
+    {
+      "label": "Chevrolet Express Cargo Van 2007",
+      "brand": "Chevrolet",
+      "model": "Express Cargo Van",
+      "body_type": "Van",
+      "year": 2007,
+      "price": 21500,
+      "model_tokens": [
+        "express",
+        "cargo",
+        "van"
+      ]
+    },
+    {
+      "label": "Jeep Grand Cherokee SUV 2012",
+      "brand": "Jeep",
+      "model": "Grand Cherokee SUV",
+      "body_type": "SUV",
+      "year": 2012,
+      "price": 40600,
+      "model_tokens": [
+        "grand",
+        "cherokee",
+        "suv"
+      ]
+    },
+    {
+      "label": "Lincoln Town Car Sedan 2011",
+      "brand": "Lincoln",
+      "model": "Town Car Sedan",
+      "body_type": "Sedan",
+      "year": 2011,
+      "price": 27500,
+      "model_tokens": [
+        "town",
+        "car",
+        "sedan"
+      ]
+    },
+    {
+      "label": "GMC Terrain SUV 2012",
+      "brand": "GMC",
+      "model": "Terrain SUV",
+      "body_type": "SUV",
+      "year": 2012,
+      "price": 40600,
+      "model_tokens": [
+        "terrain",
+        "suv"
+      ]
+    },
+    {
+      "label": "Toyota Corolla Sedan 2012",
+      "brand": "Toyota",
+      "model": "Corolla Sedan",
+      "body_type": "Sedan",
+      "year": 2012,
+      "price": 29000,
+      "model_tokens": [
+        "corolla",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Toyota Sequoia SUV 2012",
+      "brand": "Toyota",
+      "model": "Sequoia SUV",
+      "body_type": "SUV",
+      "year": 2012,
+      "price": 29000,
+      "model_tokens": [
+        "sequoia",
+        "suv"
+      ]
+    },
+    {
+      "label": "Mitsubishi Lancer Sedan 2012",
+      "brand": "Mitsubishi",
+      "model": "Lancer Sedan",
+      "body_type": "Sedan",
+      "year": 2012,
+      "price": 29000,
+      "model_tokens": [
+        "lancer",
+        "sedan"
+      ]
+    },
+    {
+      "label": "BMW ActiveHybrid 5 Sedan 2012",
+      "brand": "BMW",
+      "model": "ActiveHybrid 5 Sedan",
+      "body_type": "Sedan",
+      "year": 2012,
+      "price": 49300,
+      "model_tokens": [
+        "activehybrid",
+        "5",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Acura TL Type-S 2008",
+      "brand": "Acura",
+      "model": "TL Type-S",
+      "body_type": "Type-S",
+      "year": 2008,
+      "price": 29899,
+      "model_tokens": [
+        "tl",
+        "type-s"
+      ]
+    },
+    {
+      "label": "Land Rover Range Rover SUV 2012",
+      "brand": "Land",
+      "model": "Rover Range Rover SUV",
+      "body_type": "SUV",
+      "year": 2012,
+      "price": 81200,
+      "model_tokens": [
+        "rover",
+        "range",
+        "rover",
+        "suv"
+      ]
+    },
+    {
+      "label": "Chevrolet Corvette Convertible 2012",
+      "brand": "Chevrolet",
+      "model": "Corvette Convertible",
+      "body_type": "Convertible",
+      "year": 2012,
+      "price": 149000,
+      "model_tokens": [
+        "corvette",
+        "convertible"
+      ]
+    },
+    {
+      "label": "GMC Yukon Hybrid SUV 2012",
+      "brand": "GMC",
+      "model": "Yukon Hybrid SUV",
+      "body_type": "SUV",
+      "year": 2012,
+      "price": 40600,
+      "model_tokens": [
+        "yukon",
+        "hybrid",
+        "suv"
+      ]
+    },
+    {
+      "label": "BMW 3 Series Sedan 2012",
+      "brand": "BMW",
+      "model": "3 Series Sedan",
+      "body_type": "Sedan",
+      "year": 2012,
+      "price": 49300,
+      "model_tokens": [
+        "3",
+        "series",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Chevrolet Tahoe Hybrid SUV 2012",
+      "brand": "Chevrolet",
+      "model": "Tahoe Hybrid SUV",
+      "body_type": "SUV",
+      "year": 2012,
+      "price": 29000,
+      "model_tokens": [
+        "tahoe",
+        "hybrid",
+        "suv"
+      ]
+    },
+    {
+      "label": "Bugatti Veyron 16.4 Convertible 2009",
+      "brand": "Bugatti",
+      "model": "Veyron 16.4 Convertible",
+      "body_type": "Convertible",
+      "year": 2009,
+      "price": 8430000,
+      "model_tokens": [
+        "veyron",
+        "16.4",
+        "convertible"
+      ]
+    },
+    {
+      "label": "Dodge Durango SUV 2012",
+      "brand": "Dodge",
+      "model": "Durango SUV",
+      "body_type": "SUV",
+      "year": 2012,
+      "price": 34800,
+      "model_tokens": [
+        "durango",
+        "suv"
+      ]
+    },
+    {
+      "label": "Aston Martin Virage Coupe 2012",
+      "brand": "Aston",
+      "model": "Martin Virage Coupe",
+      "body_type": "Coupe",
+      "year": 2012,
+      "price": 377000,
+      "model_tokens": [
+        "martin",
+        "virage",
+        "coupe"
+      ]
+    },
+    {
+      "label": "Suzuki SX4 Sedan 2012",
+      "brand": "Suzuki",
+      "model": "SX4 Sedan",
+      "body_type": "Sedan",
+      "year": 2012,
+      "price": 17400,
+      "model_tokens": [
+        "sx4",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Chrysler Crossfire Convertible 2008",
+      "brand": "Chrysler",
+      "model": "Crossfire Convertible",
+      "body_type": "Convertible",
+      "year": 2008,
+      "price": 20700,
+      "model_tokens": [
+        "crossfire",
+        "convertible"
+      ]
+    },
+    {
+      "label": "Audi 100 Sedan 1994",
+      "brand": "Audi",
+      "model": "100 Sedan",
+      "body_type": "Sedan",
+      "year": 1994,
+      "price": 17500,
+      "model_tokens": [
+        "100",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Audi TTS Coupe 2012",
+      "brand": "Audi",
+      "model": "TTS Coupe",
+      "body_type": "Coupe",
+      "year": 2012,
+      "price": 40600,
+      "model_tokens": [
+        "tts",
+        "coupe"
+      ]
+    },
+    {
+      "label": "Bentley Continental GT Coupe 2007",
+      "brand": "Bentley",
+      "model": "Continental GT Coupe",
+      "body_type": "Coupe",
+      "year": 2007,
+      "price": 601000,
+      "model_tokens": [
+        "continental",
+        "gt",
+        "coupe"
+      ]
+    },
+    {
+      "label": "Buick Rainier SUV 2007",
+      "brand": "Buick",
+      "model": "Rainier SUV",
+      "body_type": "SUV",
+      "year": 2007,
+      "price": 21500,
+      "model_tokens": [
+        "rainier",
+        "suv"
+      ]
+    },
+    {
+      "label": "Mazda Tribute SUV 2011",
+      "brand": "Mazda",
+      "model": "Tribute SUV",
+      "body_type": "SUV",
+      "year": 2011,
+      "price": 24750,
+      "model_tokens": [
+        "tribute",
+        "suv"
+      ]
+    },
+    {
+      "label": "BMW M3 Coupe 2012",
+      "brand": "BMW",
+      "model": "M3 Coupe",
+      "body_type": "Coupe",
+      "year": 2012,
+      "price": 109300,
+      "model_tokens": [
+        "m3",
+        "coupe"
+      ]
+    },
+    {
+      "label": "BMW X5 SUV 2007",
+      "brand": "BMW",
+      "model": "X5 SUV",
+      "body_type": "SUV",
+      "year": 2007,
+      "price": 36550,
+      "model_tokens": [
+        "x5",
+        "suv"
+      ]
+    },
+    {
+      "label": "FIAT 500 Abarth 2012",
+      "brand": "FIAT",
+      "model": "500 Abarth",
+      "body_type": "Abarth",
+      "year": 2012,
+      "price": 20300,
+      "model_tokens": [
+        "500",
+        "abarth"
+      ]
+    },
+    {
+      "label": "GMC Savana Van 2012",
+      "brand": "GMC",
+      "model": "Savana Van",
+      "body_type": "Van",
+      "year": 2012,
+      "price": 40600,
+      "model_tokens": [
+        "savana",
+        "van"
+      ]
+    },
+    {
+      "label": "Chrysler PT Cruiser Convertible 2008",
+      "brand": "Chrysler",
+      "model": "PT Cruiser Convertible",
+      "body_type": "Convertible",
+      "year": 2008,
+      "price": 20700,
+      "model_tokens": [
+        "pt",
+        "cruiser",
+        "convertible"
+      ]
+    },
+    {
+      "label": "Fisker Karma Sedan 2012",
+      "brand": "Fisker",
+      "model": "Karma Sedan",
+      "body_type": "Sedan",
+      "year": 2012,
+      "price": 69600,
+      "model_tokens": [
+        "karma",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Tesla Model S Sedan 2012",
+      "brand": "Tesla",
+      "model": "Model S Sedan",
+      "body_type": "Sedan",
+      "year": 2012,
+      "price": 104400,
+      "model_tokens": [
+        "model",
+        "s",
+        "sedan"
+      ]
+    },
+    {
+      "label": "BMW 3 Series Wagon 2012",
+      "brand": "BMW",
+      "model": "3 Series Wagon",
+      "body_type": "Wagon",
+      "year": 2012,
+      "price": 49300,
+      "model_tokens": [
+        "3",
+        "series",
+        "wagon"
+      ]
+    },
+    {
+      "label": "Mercedes-Benz Sprinter Van 2012",
+      "brand": "Mercedes-Benz",
+      "model": "Sprinter Van",
+      "body_type": "Van",
+      "year": 2012,
+      "price": 55100,
+      "model_tokens": [
+        "sprinter",
+        "van"
+      ]
+    },
+    {
+      "label": "Hyundai Azera Sedan 2012",
+      "brand": "Hyundai",
+      "model": "Azera Sedan",
+      "body_type": "Sedan",
+      "year": 2012,
+      "price": 26100,
+      "model_tokens": [
+        "azera",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Chrysler Aspen SUV 2009",
+      "brand": "Chrysler",
+      "model": "Aspen SUV",
+      "body_type": "SUV",
+      "year": 2009,
+      "price": 22050,
+      "model_tokens": [
+        "aspen",
+        "suv"
+      ]
+    },
+    {
+      "label": "Acura TL Sedan 2012",
+      "brand": "Acura",
+      "model": "TL Sedan",
+      "body_type": "Sedan",
+      "year": 2012,
+      "price": 37700,
+      "model_tokens": [
+        "tl",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Audi RS 4 Convertible 2008",
+      "brand": "Audi",
+      "model": "RS 4 Convertible",
+      "body_type": "Convertible",
+      "year": 2008,
+      "price": 102199,
+      "model_tokens": [
+        "rs",
+        "4",
+        "convertible"
+      ]
+    },
+    {
+      "label": "Daewoo Nubira Wagon 2002",
+      "brand": "Daewoo",
+      "model": "Nubira Wagon",
+      "body_type": "Wagon",
+      "year": 2002,
+      "price": 10000,
+      "model_tokens": [
+        "nubira",
+        "wagon"
+      ]
+    },
+    {
+      "label": "Mercedes-Benz E-Class Sedan 2012",
+      "brand": "Mercedes-Benz",
+      "model": "E-Class Sedan",
+      "body_type": "Sedan",
+      "year": 2012,
+      "price": 55100,
+      "model_tokens": [
+        "e-class",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Dodge Caravan Minivan 1997",
+      "brand": "Dodge",
+      "model": "Caravan Minivan",
+      "body_type": "Minivan",
+      "year": 1997,
+      "price": 15000,
+      "model_tokens": [
+        "caravan",
+        "minivan"
+      ]
+    },
+    {
+      "label": "Bentley Continental Flying Spur Sedan 2007",
+      "brand": "Bentley",
+      "model": "Continental Flying Spur Sedan",
+      "body_type": "Sedan",
+      "year": 2007,
+      "price": 551000,
+      "model_tokens": [
+        "continental",
+        "flying",
+        "spur",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Cadillac SRX SUV 2012",
+      "brand": "Cadillac",
+      "model": "SRX SUV",
+      "body_type": "SUV",
+      "year": 2012,
+      "price": 46400,
+      "model_tokens": [
+        "srx",
+        "suv"
+      ]
+    },
+    {
+      "label": "Maybach Landaulet Convertible 2012",
+      "brand": "Maybach",
+      "model": "Landaulet Convertible",
+      "body_type": "Convertible",
+      "year": 2012,
+      "price": 870000,
+      "model_tokens": [
+        "landaulet",
+        "convertible"
+      ]
+    },
+    {
+      "label": "FIAT 500 Convertible 2012",
+      "brand": "FIAT",
+      "model": "500 Convertible",
+      "body_type": "Convertible",
+      "year": 2012,
+      "price": 20300,
+      "model_tokens": [
+        "500",
+        "convertible"
+      ]
+    },
+    {
+      "label": "Bentley Arnage Sedan 2009",
+      "brand": "Bentley",
+      "model": "Arnage Sedan",
+      "body_type": "Sedan",
+      "year": 2009,
+      "price": 343000,
+      "model_tokens": [
+        "arnage",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Hyundai Tucson SUV 2012",
+      "brand": "Hyundai",
+      "model": "Tucson SUV",
+      "body_type": "SUV",
+      "year": 2012,
+      "price": 26100,
+      "model_tokens": [
+        "tucson",
+        "suv"
+      ]
+    },
+    {
+      "label": "Lamborghini Aventador Coupe 2012",
+      "brand": "Lamborghini",
+      "model": "Aventador Coupe",
+      "body_type": "Coupe",
+      "year": 2012,
+      "price": 1496000,
+      "model_tokens": [
+        "aventador",
+        "coupe"
+      ]
+    },
+    {
+      "label": "Chevrolet Silverado 1500 Classic Extended Cab 2007",
+      "brand": "Chevrolet",
+      "model": "Silverado 1500 Classic Extended Cab",
+      "body_type": "Cab",
+      "year": 2007,
+      "price": 21500,
+      "model_tokens": [
+        "silverado",
+        "1500",
+        "classic",
+        "extended",
+        "cab"
+      ]
+    },
+    {
+      "label": "Ford F-450 Super Duty Crew Cab 2012",
+      "brand": "Ford",
+      "model": "F-450 Super Duty Crew Cab",
+      "body_type": "Cab",
+      "year": 2012,
+      "price": 31900,
+      "model_tokens": [
+        "f-450",
+        "super",
+        "duty",
+        "crew",
+        "cab"
+      ]
+    },
+    {
+      "label": "Hyundai Veloster Hatchback 2012",
+      "brand": "Hyundai",
+      "model": "Veloster Hatchback",
+      "body_type": "Hatchback",
+      "year": 2012,
+      "price": 26100,
+      "model_tokens": [
+        "veloster",
+        "hatchback"
+      ]
+    },
+    {
+      "label": "Dodge Magnum Wagon 2008",
+      "brand": "Dodge",
+      "model": "Magnum Wagon",
+      "body_type": "Wagon",
+      "year": 2008,
+      "price": 27599,
+      "model_tokens": [
+        "magnum",
+        "wagon"
+      ]
+    },
+    {
+      "label": "GMC Canyon Extended Cab 2012",
+      "brand": "GMC",
+      "model": "Canyon Extended Cab",
+      "body_type": "Cab",
+      "year": 2012,
+      "price": 40600,
+      "model_tokens": [
+        "canyon",
+        "extended",
+        "cab"
+      ]
+    },
+    {
+      "label": "Infiniti QX56 SUV 2011",
+      "brand": "Infiniti",
+      "model": "QX56 SUV",
+      "body_type": "SUV",
+      "year": 2011,
+      "price": 38500,
+      "model_tokens": [
+        "qx56",
+        "suv"
+      ]
+    },
+    {
+      "label": "Lamborghini Gallardo LP 570-4 Superleggera 2012",
+      "brand": "Lamborghini",
+      "model": "Gallardo LP 570-4 Superleggera",
+      "body_type": "Superleggera",
+      "year": 2012,
+      "price": 1096000,
+      "model_tokens": [
+        "gallardo",
+        "lp",
+        "570-4",
+        "superleggera"
+      ]
+    },
+    {
+      "label": "Chrysler Sebring Convertible 2010",
+      "brand": "Chrysler",
+      "model": "Sebring Convertible",
+      "body_type": "Convertible",
+      "year": 2010,
+      "price": 23400,
+      "model_tokens": [
+        "sebring",
+        "convertible"
+      ]
+    },
+    {
+      "label": "Chevrolet Silverado 2500HD Regular Cab 2012",
+      "brand": "Chevrolet",
+      "model": "Silverado 2500HD Regular Cab",
+      "body_type": "Cab",
+      "year": 2012,
+      "price": 29000,
+      "model_tokens": [
+        "silverado",
+        "2500hd",
+        "regular",
+        "cab"
+      ]
+    },
+    {
+      "label": "Chevrolet Cobalt SS 2010",
+      "brand": "Chevrolet",
+      "model": "Cobalt SS",
+      "body_type": "SS",
+      "year": 2010,
+      "price": 26000,
+      "model_tokens": [
+        "cobalt",
+        "ss"
+      ]
+    },
+    {
+      "label": "HUMMER H2 SUT Crew Cab 2009",
+      "brand": "HUMMER",
+      "model": "H2 SUT Crew Cab",
+      "body_type": "Cab",
+      "year": 2009,
+      "price": 63700,
+      "model_tokens": [
+        "h2",
+        "sut",
+        "crew",
+        "cab"
+      ]
+    },
+    {
+      "label": "Scion xD Hatchback 2012",
+      "brand": "Scion",
+      "model": "xD Hatchback",
+      "body_type": "Hatchback",
+      "year": 2012,
+      "price": 17400,
+      "model_tokens": [
+        "xd",
+        "hatchback"
+      ]
+    },
+    {
+      "label": "Spyker C8 Coupe 2009",
+      "brand": "Spyker",
+      "model": "C8 Coupe",
+      "body_type": "Coupe",
+      "year": 2009,
+      "price": 490000,
+      "model_tokens": [
+        "c8",
+        "coupe"
+      ]
+    },
+    {
+      "label": "Ford E-Series Wagon Van 2012",
+      "brand": "Ford",
+      "model": "E-Series Wagon Van",
+      "body_type": "Van",
+      "year": 2012,
+      "price": 31900,
+      "model_tokens": [
+        "e-series",
+        "wagon",
+        "van"
+      ]
+    },
+    {
+      "label": "Toyota 4Runner SUV 2012",
+      "brand": "Toyota",
+      "model": "4Runner SUV",
+      "body_type": "SUV",
+      "year": 2012,
+      "price": 29000,
+      "model_tokens": [
+        "4runner",
+        "suv"
+      ]
+    },
+    {
+      "label": "Porsche Panamera Sedan 2012",
+      "brand": "Porsche",
+      "model": "Panamera Sedan",
+      "body_type": "Sedan",
+      "year": 2012,
+      "price": 261000,
+      "model_tokens": [
+        "panamera",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Nissan NV Passenger Van 2012",
+      "brand": "Nissan",
+      "model": "NV Passenger Van",
+      "body_type": "Van",
+      "year": 2012,
+      "price": 29000,
+      "model_tokens": [
+        "nv",
+        "passenger",
+        "van"
+      ]
+    },
+    {
+      "label": "Audi S6 Sedan 2011",
+      "brand": "Audi",
+      "model": "S6 Sedan",
+      "body_type": "Sedan",
+      "year": 2011,
+      "price": 38500,
+      "model_tokens": [
+        "s6",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Nissan 240SX Coupe 1998",
+      "brand": "Nissan",
+      "model": "240SX Coupe",
+      "body_type": "Coupe",
+      "year": 1998,
+      "price": 12500,
+      "model_tokens": [
+        "240sx",
+        "coupe"
+      ]
+    },
+    {
+      "label": "Toyota Camry Sedan 2012",
+      "brand": "Toyota",
+      "model": "Camry Sedan",
+      "body_type": "Sedan",
+      "year": 2012,
+      "price": 29000,
+      "model_tokens": [
+        "camry",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Acura RL Sedan 2012",
+      "brand": "Acura",
+      "model": "RL Sedan",
+      "body_type": "Sedan",
+      "year": 2012,
+      "price": 37700,
+      "model_tokens": [
+        "rl",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Spyker C8 Convertible 2009",
+      "brand": "Spyker",
+      "model": "C8 Convertible",
+      "body_type": "Convertible",
+      "year": 2009,
+      "price": 490000,
+      "model_tokens": [
+        "c8",
+        "convertible"
+      ]
+    },
+    {
+      "label": "BMW M5 Sedan 2010",
+      "brand": "BMW",
+      "model": "M5 Sedan",
+      "body_type": "Sedan",
+      "year": 2010,
+      "price": 144200,
+      "model_tokens": [
+        "m5",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Hyundai Sonata Hybrid Sedan 2012",
+      "brand": "Hyundai",
+      "model": "Sonata Hybrid Sedan",
+      "body_type": "Sedan",
+      "year": 2012,
+      "price": 26100,
+      "model_tokens": [
+        "sonata",
+        "hybrid",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Mercedes-Benz S-Class Sedan 2012",
+      "brand": "Mercedes-Benz",
+      "model": "S-Class Sedan",
+      "body_type": "Sedan",
+      "year": 2012,
+      "price": 55100,
+      "model_tokens": [
+        "s-class",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Hyundai Santa Fe SUV 2012",
+      "brand": "Hyundai",
+      "model": "Santa Fe SUV",
+      "body_type": "SUV",
+      "year": 2012,
+      "price": 26100,
+      "model_tokens": [
+        "santa",
+        "fe",
+        "suv"
+      ]
+    },
+    {
+      "label": "BMW 1 Series Convertible 2012",
+      "brand": "BMW",
+      "model": "1 Series Convertible",
+      "body_type": "Convertible",
+      "year": 2012,
+      "price": 49300,
+      "model_tokens": [
+        "1",
+        "series",
+        "convertible"
+      ]
+    },
+    {
+      "label": "Ford Fiesta Sedan 2012",
+      "brand": "Ford",
+      "model": "Fiesta Sedan",
+      "body_type": "Sedan",
+      "year": 2012,
+      "price": 31900,
+      "model_tokens": [
+        "fiesta",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Dodge Charger SRT-8 2009",
+      "brand": "Dodge",
+      "model": "Charger SRT-8",
+      "body_type": "SRT-8",
+      "year": 2009,
+      "price": 69400,
+      "model_tokens": [
+        "charger",
+        "srt-8"
+      ]
+    },
+    {
+      "label": "Aston Martin Virage Convertible 2012",
+      "brand": "Aston",
+      "model": "Martin Virage Convertible",
+      "body_type": "Convertible",
+      "year": 2012,
+      "price": 377000,
+      "model_tokens": [
+        "martin",
+        "virage",
+        "convertible"
+      ]
+    },
+    {
+      "label": "Ford Freestar Minivan 2007",
+      "brand": "Ford",
+      "model": "Freestar Minivan",
+      "body_type": "Minivan",
+      "year": 2007,
+      "price": 23650,
+      "model_tokens": [
+        "freestar",
+        "minivan"
+      ]
+    },
+    {
+      "label": "Dodge Dakota Club Cab 2007",
+      "brand": "Dodge",
+      "model": "Dakota Club Cab",
+      "body_type": "Cab",
+      "year": 2007,
+      "price": 25800,
+      "model_tokens": [
+        "dakota",
+        "club",
+        "cab"
+      ]
+    },
+    {
+      "label": "AM General Hummer SUV 2000",
+      "brand": "AM",
+      "model": "General Hummer SUV",
+      "body_type": "SUV",
+      "year": 2000,
+      "price": 25000,
+      "model_tokens": [
+        "general",
+        "hummer",
+        "suv"
+      ]
+    },
+    {
+      "label": "Aston Martin V8 Vantage Coupe 2012",
+      "brand": "Aston",
+      "model": "Martin V8 Vantage Coupe",
+      "body_type": "Coupe",
+      "year": 2012,
+      "price": 377000,
+      "model_tokens": [
+        "martin",
+        "v8",
+        "vantage",
+        "coupe"
+      ]
+    },
+    {
+      "label": "Ford F-150 Regular Cab 2012",
+      "brand": "Ford",
+      "model": "F-150 Regular Cab",
+      "body_type": "Cab",
+      "year": 2012,
+      "price": 31900,
+      "model_tokens": [
+        "f-150",
+        "regular",
+        "cab"
+      ]
+    },
+    {
+      "label": "Volkswagen Golf Hatchback 1991",
+      "brand": "Volkswagen",
+      "model": "Golf Hatchback",
+      "body_type": "Hatchback",
+      "year": 1991,
+      "price": 10000,
+      "model_tokens": [
+        "golf",
+        "hatchback"
+      ]
+    },
+    {
+      "label": "Volkswagen Golf Hatchback 2012",
+      "brand": "Volkswagen",
+      "model": "Golf Hatchback",
+      "body_type": "Hatchback",
+      "year": 2012,
+      "price": 23200,
+      "model_tokens": [
+        "golf",
+        "hatchback"
+      ]
+    },
+    {
+      "label": "Ferrari 458 Italia Convertible 2012",
+      "brand": "Ferrari",
+      "model": "458 Italia Convertible",
+      "body_type": "Convertible",
+      "year": 2012,
+      "price": 1022000,
+      "model_tokens": [
+        "458",
+        "italia",
+        "convertible"
+      ]
+    },
+    {
+      "label": "Audi A5 Coupe 2012",
+      "brand": "Audi",
+      "model": "A5 Coupe",
+      "body_type": "Coupe",
+      "year": 2012,
+      "price": 40600,
+      "model_tokens": [
+        "a5",
+        "coupe"
+      ]
+    },
+    {
+      "label": "Volvo C30 Hatchback 2012",
+      "brand": "Volvo",
+      "model": "C30 Hatchback",
+      "body_type": "Hatchback",
+      "year": 2012,
+      "price": 34800,
+      "model_tokens": [
+        "c30",
+        "hatchback"
+      ]
+    },
+    {
+      "label": "Dodge Journey SUV 2012",
+      "brand": "Dodge",
+      "model": "Journey SUV",
+      "body_type": "SUV",
+      "year": 2012,
+      "price": 34800,
+      "model_tokens": [
+        "journey",
+        "suv"
+      ]
+    },
+    {
+      "label": "HUMMER H3T Crew Cab 2010",
+      "brand": "HUMMER",
+      "model": "H3T Crew Cab",
+      "body_type": "Cab",
+      "year": 2010,
+      "price": 67600,
+      "model_tokens": [
+        "h3t",
+        "crew",
+        "cab"
+      ]
+    },
+    {
+      "label": "Chevrolet Silverado 1500 Extended Cab 2012",
+      "brand": "Chevrolet",
+      "model": "Silverado 1500 Extended Cab",
+      "body_type": "Cab",
+      "year": 2012,
+      "price": 29000,
+      "model_tokens": [
+        "silverado",
+        "1500",
+        "extended",
+        "cab"
+      ]
+    },
+    {
+      "label": "Dodge Ram Pickup 3500 Quad Cab 2009",
+      "brand": "Dodge",
+      "model": "Ram Pickup 3500 Quad Cab",
+      "body_type": "Cab",
+      "year": 2009,
+      "price": 29400,
+      "model_tokens": [
+        "ram",
+        "pickup",
+        "3500",
+        "quad",
+        "cab"
+      ]
+    },
+    {
+      "label": "Dodge Durango SUV 2007",
+      "brand": "Dodge",
+      "model": "Durango SUV",
+      "body_type": "SUV",
+      "year": 2007,
+      "price": 25800,
+      "model_tokens": [
+        "durango",
+        "suv"
+      ]
+    },
+    {
+      "label": "Ford Edge SUV 2012",
+      "brand": "Ford",
+      "model": "Edge SUV",
+      "body_type": "SUV",
+      "year": 2012,
+      "price": 31900,
+      "model_tokens": [
+        "edge",
+        "suv"
+      ]
+    },
+    {
+      "label": "Ford Expedition EL SUV 2009",
+      "brand": "Ford",
+      "model": "Expedition EL SUV",
+      "body_type": "SUV",
+      "year": 2009,
+      "price": 26950,
+      "model_tokens": [
+        "expedition",
+        "el",
+        "suv"
+      ]
+    },
+    {
+      "label": "Ferrari FF Coupe 2012",
+      "brand": "Ferrari",
+      "model": "FF Coupe",
+      "body_type": "Coupe",
+      "year": 2012,
+      "price": 522000,
+      "model_tokens": [
+        "ff",
+        "coupe"
+      ]
+    },
+    {
+      "label": "Honda Odyssey Minivan 2007",
+      "brand": "Honda",
+      "model": "Odyssey Minivan",
+      "body_type": "Minivan",
+      "year": 2007,
+      "price": 19350,
+      "model_tokens": [
+        "odyssey",
+        "minivan"
+      ]
+    },
+    {
+      "label": "Hyundai Elantra Sedan 2007",
+      "brand": "Hyundai",
+      "model": "Elantra Sedan",
+      "body_type": "Sedan",
+      "year": 2007,
+      "price": 19350,
+      "model_tokens": [
+        "elantra",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Ford Ranger SuperCab 2011",
+      "brand": "Ford",
+      "model": "Ranger SuperCab",
+      "body_type": "SuperCab",
+      "year": 2011,
+      "price": 30250,
+      "model_tokens": [
+        "ranger",
+        "supercab"
+      ]
+    },
+    {
+      "label": "Nissan Leaf Hatchback 2012",
+      "brand": "Nissan",
+      "model": "Leaf Hatchback",
+      "body_type": "Hatchback",
+      "year": 2012,
+      "price": 29000,
+      "model_tokens": [
+        "leaf",
+        "hatchback"
+      ]
+    },
+    {
+      "label": "Chevrolet Silverado 1500 Hybrid Crew Cab 2012",
+      "brand": "Chevrolet",
+      "model": "Silverado 1500 Hybrid Crew Cab",
+      "body_type": "Cab",
+      "year": 2012,
+      "price": 29000,
+      "model_tokens": [
+        "silverado",
+        "1500",
+        "hybrid",
+        "crew",
+        "cab"
+      ]
+    },
+    {
+      "label": "Volkswagen Beetle Hatchback 2012",
+      "brand": "Volkswagen",
+      "model": "Beetle Hatchback",
+      "body_type": "Hatchback",
+      "year": 2012,
+      "price": 23200,
+      "model_tokens": [
+        "beetle",
+        "hatchback"
+      ]
+    },
+    {
+      "label": "Nissan Juke Hatchback 2012",
+      "brand": "Nissan",
+      "model": "Juke Hatchback",
+      "body_type": "Hatchback",
+      "year": 2012,
+      "price": 29000,
+      "model_tokens": [
+        "juke",
+        "hatchback"
+      ]
+    },
+    {
+      "label": "Dodge Sprinter Cargo Van 2009",
+      "brand": "Dodge",
+      "model": "Sprinter Cargo Van",
+      "body_type": "Van",
+      "year": 2009,
+      "price": 29400,
+      "model_tokens": [
+        "sprinter",
+        "cargo",
+        "van"
+      ]
+    },
+    {
+      "label": "Ford F-150 Regular Cab 2007",
+      "brand": "Ford",
+      "model": "F-150 Regular Cab",
+      "body_type": "Cab",
+      "year": 2007,
+      "price": 23650,
+      "model_tokens": [
+        "f-150",
+        "regular",
+        "cab"
+      ]
+    },
+    {
+      "label": "Honda Accord Coupe 2012",
+      "brand": "Honda",
+      "model": "Accord Coupe",
+      "body_type": "Coupe",
+      "year": 2012,
+      "price": 26100,
+      "model_tokens": [
+        "accord",
+        "coupe"
+      ]
+    },
+    {
+      "label": "Ferrari California Convertible 2012",
+      "brand": "Ferrari",
+      "model": "California Convertible",
+      "body_type": "Convertible",
+      "year": 2012,
+      "price": 522000,
+      "model_tokens": [
+        "california",
+        "convertible"
+      ]
+    },
+    {
+      "label": "BMW 6 Series Convertible 2007",
+      "brand": "BMW",
+      "model": "6 Series Convertible",
+      "body_type": "Convertible",
+      "year": 2007,
+      "price": 36550,
+      "model_tokens": [
+        "6",
+        "series",
+        "convertible"
+      ]
+    },
+    {
+      "label": "Audi S4 Sedan 2007",
+      "brand": "Audi",
+      "model": "S4 Sedan",
+      "body_type": "Sedan",
+      "year": 2007,
+      "price": 30100,
+      "model_tokens": [
+        "s4",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Jeep Patriot SUV 2012",
+      "brand": "Jeep",
+      "model": "Patriot SUV",
+      "body_type": "SUV",
+      "year": 2012,
+      "price": 40600,
+      "model_tokens": [
+        "patriot",
+        "suv"
+      ]
+    },
+    {
+      "label": "Chevrolet Avalanche Crew Cab 2012",
+      "brand": "Chevrolet",
+      "model": "Avalanche Crew Cab",
+      "body_type": "Cab",
+      "year": 2012,
+      "price": 29000,
+      "model_tokens": [
+        "avalanche",
+        "crew",
+        "cab"
+      ]
+    },
+    {
+      "label": "Chevrolet TrailBlazer SS 2009",
+      "brand": "Chevrolet",
+      "model": "TrailBlazer SS",
+      "body_type": "SS",
+      "year": 2009,
+      "price": 24500,
+      "model_tokens": [
+        "trailblazer",
+        "ss"
+      ]
+    },
+    {
+      "label": "Audi R8 Coupe 2012",
+      "brand": "Audi",
+      "model": "R8 Coupe",
+      "body_type": "Coupe",
+      "year": 2012,
+      "price": 340600,
+      "model_tokens": [
+        "r8",
+        "coupe"
+      ]
+    },
+    {
+      "label": "Eagle Talon Hatchback 1998",
+      "brand": "Eagle",
+      "model": "Talon Hatchback",
+      "body_type": "Hatchback",
+      "year": 1998,
+      "price": 10000,
+      "model_tokens": [
+        "talon",
+        "hatchback"
+      ]
+    },
+    {
+      "label": "Bentley Continental Supersports Conv. Convertible 2012",
+      "brand": "Bentley",
+      "model": "Continental Supersports Conv. Convertible",
+      "body_type": "Convertible",
+      "year": 2012,
+      "price": 656000,
+      "model_tokens": [
+        "continental",
+        "supersports",
+        "conv.",
+        "convertible"
+      ]
+    },
+    {
+      "label": "Mercedes-Benz SL-Class Coupe 2009",
+      "brand": "Mercedes-Benz",
+      "model": "SL-Class Coupe",
+      "body_type": "Coupe",
+      "year": 2009,
+      "price": 46550,
+      "model_tokens": [
+        "sl-class",
+        "coupe"
+      ]
+    },
+    {
+      "label": "Volvo XC90 SUV 2007",
+      "brand": "Volvo",
+      "model": "XC90 SUV",
+      "body_type": "SUV",
+      "year": 2007,
+      "price": 25800,
+      "model_tokens": [
+        "xc90",
+        "suv"
+      ]
+    },
+    {
+      "label": "Mercedes-Benz C-Class Sedan 2012",
+      "brand": "Mercedes-Benz",
+      "model": "C-Class Sedan",
+      "body_type": "Sedan",
+      "year": 2012,
+      "price": 55100,
+      "model_tokens": [
+        "c-class",
+        "sedan"
+      ]
+    },
+    {
+      "label": "BMW 1 Series Coupe 2012",
+      "brand": "BMW",
+      "model": "1 Series Coupe",
+      "body_type": "Coupe",
+      "year": 2012,
+      "price": 49300,
+      "model_tokens": [
+        "1",
+        "series",
+        "coupe"
+      ]
+    },
+    {
+      "label": "BMW X3 SUV 2012",
+      "brand": "BMW",
+      "model": "X3 SUV",
+      "body_type": "SUV",
+      "year": 2012,
+      "price": 49300,
+      "model_tokens": [
+        "x3",
+        "suv"
+      ]
+    },
+    {
+      "label": "Dodge Charger Sedan 2012",
+      "brand": "Dodge",
+      "model": "Charger Sedan",
+      "body_type": "Sedan",
+      "year": 2012,
+      "price": 34800,
+      "model_tokens": [
+        "charger",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Chevrolet Silverado 1500 Regular Cab 2012",
+      "brand": "Chevrolet",
+      "model": "Silverado 1500 Regular Cab",
+      "body_type": "Cab",
+      "year": 2012,
+      "price": 29000,
+      "model_tokens": [
+        "silverado",
+        "1500",
+        "regular",
+        "cab"
+      ]
+    },
+    {
+      "label": "Acura Integra Type R 2001",
+      "brand": "Acura",
+      "model": "Integra Type R",
+      "body_type": "R",
+      "year": 2001,
+      "price": 16250,
+      "model_tokens": [
+        "integra",
+        "type",
+        "r"
+      ]
+    },
+    {
+      "label": "Suzuki SX4 Hatchback 2012",
+      "brand": "Suzuki",
+      "model": "SX4 Hatchback",
+      "body_type": "Hatchback",
+      "year": 2012,
+      "price": 17400,
+      "model_tokens": [
+        "sx4",
+        "hatchback"
+      ]
+    },
+    {
+      "label": "Ford Mustang Convertible 2007",
+      "brand": "Ford",
+      "model": "Mustang Convertible",
+      "body_type": "Convertible",
+      "year": 2007,
+      "price": 23650,
+      "model_tokens": [
+        "mustang",
+        "convertible"
+      ]
+    },
+    {
+      "label": "Bentley Continental GT Coupe 2012",
+      "brand": "Bentley",
+      "model": "Continental GT Coupe",
+      "body_type": "Coupe",
+      "year": 2012,
+      "price": 706000,
+      "model_tokens": [
+        "continental",
+        "gt",
+        "coupe"
+      ]
+    },
+    {
+      "label": "Chevrolet Sonic Sedan 2012",
+      "brand": "Chevrolet",
+      "model": "Sonic Sedan",
+      "body_type": "Sedan",
+      "year": 2012,
+      "price": 29000,
+      "model_tokens": [
+        "sonic",
+        "sedan"
+      ]
+    },
+    {
+      "label": "Lamborghini Diablo Coupe 2001",
+      "brand": "Lamborghini",
+      "model": "Diablo Coupe",
+      "body_type": "Coupe",
+      "year": 2001,
+      "price": 300000,
+      "model_tokens": [
+        "diablo",
+        "coupe"
+      ]
+    },
+    {
+      "label": "Cadillac Escalade EXT Crew Cab 2007",
+      "brand": "Cadillac",
+      "model": "Escalade EXT Crew Cab",
+      "body_type": "Cab",
+      "year": 2007,
+      "price": 34400,
+      "model_tokens": [
+        "escalade",
+        "ext",
+        "crew",
+        "cab"
+      ]
+    },
+    {
+      "label": "Chevrolet Corvette Ron Fellows Edition Z06 2007",
+      "brand": "Chevrolet",
+      "model": "Corvette Ron Fellows Edition Z06",
+      "body_type": "Z06",
+      "year": 2007,
+      "price": 141500,
+      "model_tokens": [
+        "corvette",
+        "ron",
+        "fellows",
+        "edition",
+        "z06"
+      ]
+    },
+    {
+      "label": "Chevrolet Camaro Convertible 2012",
+      "brand": "Chevrolet",
+      "model": "Camaro Convertible",
+      "body_type": "Convertible",
+      "year": 2012,
+      "price": 29000,
+      "model_tokens": [
+        "camaro",
+        "convertible"
+      ]
+    },
+    {
+      "label": "MINI Cooper Roadster Convertible 2012",
+      "brand": "MINI",
+      "model": "Cooper Roadster Convertible",
+      "body_type": "Convertible",
+      "year": 2012,
+      "price": 40600,
+      "model_tokens": [
+        "cooper",
+        "roadster",
+        "convertible"
+      ]
+    },
+    {
+      "label": "GMC Acadia SUV 2012",
+      "brand": "GMC",
+      "model": "Acadia SUV",
+      "body_type": "SUV",
+      "year": 2012,
+      "price": 40600,
+      "model_tokens": [
+        "acadia",
+        "suv"
+      ]
+    },
+    {
+      "label": "Chevrolet Impala Sedan 2007",
+      "brand": "Chevrolet",
+      "model": "Impala Sedan",
+      "body_type": "Sedan",
+      "year": 2007,
+      "price": 21500,
+      "model_tokens": [
+        "impala",
+        "sedan"
+      ]
+    }
+  ]
+}
